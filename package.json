@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-divvy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "eslint configuration for Divvy (https://getdivvy.com)",
   "main": "index.js",
   "files": [
