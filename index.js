@@ -12,6 +12,7 @@ module.exports = {
         'jsx-a11y',
         'jest',
         'emotion',
+        'react-hooks'
     ],
     rules: {
         'no-console': [1, { allow: ['warn', 'error'] }],
@@ -25,6 +26,8 @@ module.exports = {
             "condition": "parens-new-line",
             "logical": "parens-new-line",
             "prop": "parens-new-line"
-        }]
+        }],
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn'
     }
 }
