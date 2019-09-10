@@ -31,7 +31,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     "import/order": ["error", {
-      "groups": ["builtin", "external", "unknown", "internal", "parent", "sibling", "index"]
+      "groups": ["builtin", "external", "internal", "parent", "sibling", "index"]
     }]
   }
 }
