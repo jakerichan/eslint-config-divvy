@@ -25,6 +25,9 @@ module.exports = {
       "reservedFirst": true,
       "shorthandFirst": true
     }],
+    "react/no-unescaped-entities": ["error", {
+      "forbid": [">", "}"]
+    }],
     "react/jsx-wrap-multilines": ["error", {
       "declaration": "parens-new-line",
       "assignment": "parens-new-line",
