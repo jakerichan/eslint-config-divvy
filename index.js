@@ -13,12 +13,18 @@ module.exports = {
     'jest',
     'emotion',
     'react-hooks',
-    'import'
+    'import',
+    'sort-destructure-keys',
+    'sort-keys-fix',
+    'wyze'
   ],
   rules: {
-    'no-console': [1, { allow: ['warn', 'error'] }],
+    'no-console': ['error', { allow: ['warn', 'info', 'error', 'table']}],
     'lines-between-class-members': 1,
-    "react/jsx-sort-props": ["error"],
+    "react/jsx-sort-props": ["error", {
+      "reservedFirst": true,
+      "shorthandFirst": true
+    }],
     "react/jsx-wrap-multilines": ["error", {
       "declaration": "parens-new-line",
       "assignment": "parens-new-line",
@@ -32,6 +38,9 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     "import/order": ["error", {
       "groups": ["builtin", "external", "internal", "parent", "sibling", "index"]
-    }]
+    }],
+    "sort-keys-fix/sort-keys-fix": "warn", // sorts keys in basic objects
+    'sort-destructure-keys/sort-destructure-keys': "error", // auto fixes simple keys destructured in the argument
+    'wyze/sort-destructuring-keys': 'error', // shows error when keys with a default value are not sorted 
   }
 }

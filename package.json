@@ -11,18 +11,21 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "eslint-config-standard": "^12.0.0",
     "eslint-config-standard-jsx": "^6.0.2",
     "eslint-config-standard-react": "^7.0.2",
+    "eslint-config-standard": "^12.0.0",
     "eslint-plugin-emotion": "10.0.7",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "2.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "eslint-plugin-sort-keys-fix": "^1.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-wyze": "^3.4.0"
   },
   "peerDependencies": {
     "eslint": ">=5"
