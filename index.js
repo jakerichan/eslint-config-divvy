@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     'no-console': ['error', { allow: ['warn', 'info', 'error', 'table']}],
+    "react/jsx-curly-brace-presence": ['error', 'never'],
     'lines-between-class-members': 1,
     "react/jsx-sort-props": ["error", {
       "reservedFirst": true,
